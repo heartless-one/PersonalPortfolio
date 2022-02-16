@@ -1,8 +1,65 @@
+/* --------NAV-------- */
+.nav-link:hover{
+  color: black !important;
+}
+
+/* Nav brand font */
+.f400 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/* --------GLOBAL-------- */
+/* General font family to use */
 .base-font {
   font-family: 'Karla', sans-serif;
 }
 
-.f400 {
-  font-weight: 400;
-  font-size: 25px;
+/* --------BANNER-------- */
+.bkg-img {
+  height: 500px;
+  min-height: 300px;
+  background-image: url('./images/tamara-gore-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.fab {
+  font-size: 30px;
+}
+
+/* --------ABOUT ME-------- */
+/* Name */
+.big-txt {
+  font-size: 60px;
+  opacity: 1.0 !important;
+}
+
+/* General text size & weight */
+.main-txt {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.container {
+   max-width: 1300px;
+ }
+
+.img-responsive {
+  width: 100%;
+  border-radius: 15px;
+}
+
+@media (max-width:767px) {
+  .img-responsive {
+    max-width: 350px;
+    max-height: 500px
+  }
+
+}
+
+.black {
+  background-color: #1a1a1a;
+  border-radius: 15px;
 }
